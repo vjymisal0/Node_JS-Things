@@ -6,5 +6,8 @@
 // msg.sayThanks()
 
 
-
 //exports
+
+const msg = require('./example.js')
+msg.sayHello()
+msg.sayThanks()
