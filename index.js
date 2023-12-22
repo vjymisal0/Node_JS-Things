@@ -8,6 +8,8 @@
 
 //exports
 
-const msg = require('./example.js')
-msg.sayHello()
-msg.sayThanks()
+// const msg = require('./example.js')
+// msg.sayHello()
+// msg.sayThanks()
+
+
