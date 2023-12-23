@@ -15,9 +15,9 @@ const server = http.createServer((req, res) => {
         res.end()
     })
     readableStream.on('error', (err) => {
-        console.log(err)
-        res.statusCode = 500
-        res.end('File not found')
+        console.log(err)    
+        res.statusCode = 500 //internal server error code   
+        res.end('File not found')   
     })
 
 })
