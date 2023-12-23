@@ -24,4 +24,11 @@
 // console.log(os.cpus())
 // console.log(os.totalmem())
 
+//path module
+const path = require("path")
+console.log(__filename) //full path
+console.log(path.basename(__filename)) //filename only
+console.log(path.basename(__dirname))
+console.log(path.join('test', '/hello', 'file.txt'))
+console.log(path.join('hello', 'hello.txt'))
 
