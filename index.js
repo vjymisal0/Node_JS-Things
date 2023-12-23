@@ -46,5 +46,50 @@ const fs = require('fs')
 //     console.log(data)
 // }))
 
-const fileContent = fs.readFileSync('file.txt', 'utf-8')
-console.log(fileContent)
+// const fileContent = fs.readFileSync('file.txt', 'utf-8')
+// console.log(fileContent)
+
+
+// fs.writeFile('file.txt', 'Hello World', (err) => {
+//     if (err) {
+//         console.log(err)
+//         return
+//     }
+//     console.log("File written successfully")
+// }
+// )
+
+// fs.writeFileSync('file1.txt', 'Hello World 123', 'utf-8')
+// console.log("File written successfully")
+
+
+
+// fs.mkdir('test', (err) => {
+//     if (err) {
+//         console.log(err)
+//         return
+//     }
+//     console.log("Folder created successfully")
+// }
+// )
+
+
+// fs.mkdirSync('test1')
+// console.log("Folder created successfully")
+
+
+// fs.rmdir('test', (err) => {
+
+//     if (err) {
+//         console.log(err)
+//         return
+//     }
+//     console.log("Folder deleted successfully")
+// }
+// )
+
+
+
+// fs.rmdirSync('test1')
+// console.log("Folder deleted successfully")
+
