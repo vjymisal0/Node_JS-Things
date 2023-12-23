@@ -38,3 +38,13 @@ const path = require("path")
 
 //fs  module
 const fs = require('fs')
+// fs.readFile('file.txt', 'utf-8', (err, data => {
+//     if (err) {
+//         console.log(err)
+//         return
+//     }
+//     console.log(data)
+// }))
+
+const fileContent = fs.readFileSync('file.txt', 'utf-8')
+console.log(fileContent)
