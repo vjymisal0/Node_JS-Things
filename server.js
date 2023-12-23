@@ -1,7 +1,13 @@
 const http = require('http')
 const server = http.createServer((req, res) => {
-    console.log('Server created')
-    res.end('Hello World')
+    // if (req.url === '/') {
+    //     res.write('Hello World')
+    //     res.end("Hello  World")
+    // }
+    if (req.url === '/about') {
+        res.write('About Page')
+        res.end("About Page")
+    }
 })
 
 server.listen(3000, 'localhost', () => {
